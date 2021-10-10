@@ -14,6 +14,7 @@ public class LoginPage {
 	{
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
+		System.out.print("hiiiiiiiii");
 	}
 		
 	@FindBy(name="uid")
